@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body { 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+img {
+    width: 100%;
+}
+input, button {
+    border: 0;
+    outline: 0;
+}
+p {
+    font-size: 18px;
+}
+.title {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+
+}
+.container {
+    max-width: 1330px;
+    width: 100%;
+    margin: auto;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.navigation{
+    max-width: 1050px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__link {
+    padding: 50px 10px;
+}
+.nav__link:hover {
+    background: #F5F0DA;
+}
+.nav__link:active {
+    background: #929291;
+}
+.section__hero {
+    background: url(../img/5_990.jpg) no-repeat center / cover;
+    height: 700px;
+}
+.title__shadow {
+    text-shadow: 0 0 4px #fff;
+}
+.hero__block {
+    padding: 100px 0;
+}
+.hero__text { 
+    /* font-weight: bold; */
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 3px #000;
+}
+.hero__title {  
+    font-size: 24px;
+}
+.order {
+    background: #F5F0DA;
+}
+.order__block{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.order__img-block {
+    padding: 30px;
+    box-shadow: 0 0 10px;
+}
+.form__order{
+    display: flex;
+    flex-direction: column;
+}
+.form__input {
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.button {
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px 0;
+    background: #df0e0c;
+    color: #fff;
+    border-radius: 10px;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(229, 160, 160);
+    color: #00b7f4;
+}
+.section__team {
+    padding: 50px 0;
+}
+.team__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.team__item {
+    max-width: 320px;
+    width: 100%;
+    padding-top: 50px;
+}
+.team__img {
+    border-radius: 10px;
+    
+}
